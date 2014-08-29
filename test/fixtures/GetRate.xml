@@ -23,7 +23,7 @@
                 <AddOnTypeV4>US-A-REG</AddOnTypeV4>
                 <AddOnTypeV4>US-A-CM</AddOnTypeV4>
                 <AddOnTypeV4>US-A-COD</AddOnTypeV4>
-                
+                <AddOnType>US-A-INS</AddOnType>
               </ProhibitedWithAnyOf>
               <MissingData>InsuredValue</MissingData>
             </AddOnV4>
@@ -90,7 +90,7 @@
                 <AddOnTypeV4>US-A-CM</AddOnTypeV4>
                 <AddOnTypeV4>US-A-INS</AddOnTypeV4>
                 <AddOnTypeV4>US-A-RRM</AddOnTypeV4>
-               
+               <AddOnType>US-A-INS</AddOnType>
             </AddOnV4>
             <AddOnV4>
               <Amount>4.5</Amount>
@@ -109,7 +109,7 @@
               </ProhibitedWithAnyOf>
             </AddOnV4>
             <AddOnV4>
-             
+             <AddOnType>US-A-INS</AddOnType>
               <ProhibitedWithAnyOf>
                 <AddOnTypeV4>US-A-REG</AddOnTypeV4>
                 <AddOnTypeV4>US-A-INS</AddOnTypeV4>
