@@ -29,7 +29,7 @@ module Stamps
       'US-BP'  => 'USPS BP',
       'US-LM'  => 'USPS LM',
       'US-XM'  => 'USPS Express Mail',
-      'US-EMI' => 'USPS Express Mail International',
+      
       'US-PMI' => 'USPS Priority Mail International',
       'US-FCI' => 'USPS First Class Mail International',
       'US-CM'  => 'USPS Critical Mail',
