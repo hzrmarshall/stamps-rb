@@ -26,7 +26,7 @@ module Stamps
       # @param params [Hash] authenticator, address, rates.
       # @return [Hash]
       #
-      def create!(params = {})
+      def create_test!(params = {})
         params[:authenticator] = authenticator_token unless params[:authenticator]
         params[:from] ||= Hash.new
         response = request('CreateIndicium', Stamps::Mapping::Stamp.new(params))
