@@ -48,7 +48,7 @@ module Stamps
       property :ToCountry,               :from => :to_country
       property :Amount,                  :from => :amount
       property :MaxAmount,               :from => :max_amount
-      property :ServiceType,             :from => :service_type
+      
       property :PrintLayout,             :from => :print_layout
       property :DeliverDays,             :from => :deliver_days
       property :Error,                   :from => :error
