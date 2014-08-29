@@ -84,9 +84,9 @@ module Stamps
       property :CubicPricing,            :from => :cubic_pricing
 
       # Maps :rate to AddOns map
-      #def add_ons=(addons)
-      #  self[:AddOns] = AddOnsArray.new(:add_on_v4 => addons[:add_on_v4])
-      #end
+      def add_ons=(addons)
+        self[:AddOns] = AddOnsArray.new(:add_on_v4 => addons[:add_on_v4])
+      end
     end
 
     class AddOnsArray < Hashie::Trash
