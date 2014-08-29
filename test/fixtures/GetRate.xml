@@ -109,7 +109,7 @@
               </ProhibitedWithAnyOf>
             </AddOnV4>
             <AddOnV4>
-             <AddOnType>US-A-INS</AddOnType>
+             <AddOnType>SC-A-INS</AddOnType>
               <ProhibitedWithAnyOf>
                 <AddOnTypeV4>US-A-REG</AddOnTypeV4>
                 <AddOnTypeV4>US-A-INS</AddOnTypeV4>
