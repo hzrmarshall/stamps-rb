@@ -48,7 +48,7 @@ module Stamps
       property :ToCountry,               :from => :to_country
       property :Amount,                  :from => :amount
       property :MaxAmount,               :from => :max_amount
-      
+      property :ServiceType,             :from => :service_type
       property :PrintLayout,             :from => :print_layout
       property :DeliverDays,             :from => :deliver_days
       property :Error,                   :from => :error
@@ -84,9 +84,9 @@ module Stamps
       property :CubicPricing,            :from => :cubic_pricing
 
       # Maps :rate to AddOns map
-      def add_ons=(addons)
-        self[:AddOns] = AddOnsArray.new(:add_on_v4 => addons[:add_on_v4])
-      end
+      #def add_ons=(addons)
+      #  self[:AddOns] = AddOnsArray.new(:add_on_v4 => addons[:add_on_v4])
+      #end
     end
 
     class AddOnsArray < Hashie::Trash
