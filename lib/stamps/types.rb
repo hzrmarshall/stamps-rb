@@ -38,7 +38,7 @@ module Stamps
 
     ADD_ONS = {
       'SC-A-HP'    => 'Hidden Postage',
-      'SC-A-INS'   => 'Insurance',
+      
       'SC-A-INSRM' => 'Insurance for Registered Mail',
       'US-A-CM'    => 'Certified Mail',
       'US-A-COD'   => 'Collect on Delivery',
