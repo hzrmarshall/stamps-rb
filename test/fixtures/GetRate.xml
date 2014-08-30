@@ -23,7 +23,7 @@
                 <AddOnTypeV4>US-A-REG</AddOnTypeV4>
                 <AddOnTypeV4>US-A-CM</AddOnTypeV4>
                 <AddOnTypeV4>US-A-COD</AddOnTypeV4>
-               <AddOnType>SC-A-INS</AddOnType>
+               <AddOnTypeV4>SC-A-INS</AddOnTypeV4>
               </ProhibitedWithAnyOf>
               <MissingData>InsuredValue</MissingData>
             </AddOnV4>
