@@ -90,7 +90,8 @@
                 <AddOnTypeV4>US-A-CM</AddOnTypeV4>
                 <AddOnTypeV4>US-A-INS</AddOnTypeV4>
                 <AddOnTypeV4>US-A-RRM</AddOnTypeV4>
-               <AddOnType>SC-A-INS</AddOnType>
+               <AddOnTypeV4>SC-A-INS</AddOnTypeV4>
+               </ProhibitedWithAnyOf>
             </AddOnV4>
             <AddOnV4>
               <Amount>4.5</Amount>
