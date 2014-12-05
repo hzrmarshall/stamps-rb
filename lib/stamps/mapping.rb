@@ -85,7 +85,8 @@ module Stamps
 
       # Maps :rate to AddOns map
       def add_ons=(addons)
-        self[:AddOns] = AddOnsArray.new(:add_on_v4 => addons[:add_on_v4])
+        self[:AddOns] = AddOnsArray.new(:add_on_v4 => addons[:add_on_v4],
+                                         :add_on_v5 => addons[:add_on_v5])
       end
     end
 
